@@ -30,6 +30,7 @@
 }
 .border:hover{
     border: 2px solid white;
+    border-radius: 2px;
 }
 .adress-icon{
     display: flex
@@ -96,5 +97,104 @@ span{
 .cart span{
     font-size: 1.25rem;
     font-weight: 700;
+}
+.panel{
+    height: 39px;
+    background-color: #232F3E;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.panel-all{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    width: 58px;
+    margin: 3px;
+    height: 39px;
+    
+}
+.panel-all span{
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.panel-opt p {
+    display: inline;
+    margin: 8px;
+}
+.panel-opt{
+    display: flex;
+margin-left: 8px;
+    width: 80%;
+    font-size: 15px;
+    height: 39px;
+    align-items: center;
+}
+
+.panel-deal{
+    display: flex;
+    height: 39px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+
+}
+/* herosection */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.hero-message{
+    background-color: #fff;
+    width: 90%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box-inner{
+    margin: 15px 7px 0px;
+}
+.box{
+    height: 400px;
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+
+
+}
+.box-img{
+    height: 320px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-inner p{
+    margin-top:8px ;
+    margin-left: 8px;
+}
+.box-inner a {
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+    
 }
 
